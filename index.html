@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zibonshathi Matrimonial Website</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  
+  <!-- Navbar Part Star -->
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container">
+      <a class="navbar-brand" href="#"><span>Z</span>bonshathi</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#" data-toggle="modal" data-target="#exampleModal">Login <i class="fas fa-chevron-down"></i><span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <i class="fas fa-headset help"></i> Help <i class="fas fa-chevron-down"></i>
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Help Desk</a>
+            <a class="dropdown-item" href="#">Be Safe Online</a>
+          </div>
+        </li>   
+      </ul>
+    </div>
+    </div>
+  </nav>
+  <!--Login Modal -->
+  <div class="login-modal">
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel"><span>Z</span>bonshathi</h5>
+            
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="welcome">
+              <h2>Welcome back! Please Login</h2>
+            </div>
+            <div class="form">
+              <form>
+                <div class="form-group">
+                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email Address">
+                </div>
+                <div class="form-group">
+                  <input type="password" class="form-control" id="exampleFormControlInput2" placeholder="Password">
+                </div>
+                <div class="forget">
+                  <p><a href="#">Forget Password?</a></p>
+                </div>
+                <button type="submit" class="log btn btn-primary">Login</button>
+              </form>
+              <p>New to Zibonshathi?</p>
+              <div class="reg">
+                <a class="btn btn-primary" href="#" role="button">Register Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Navbar Part End -->
+
+  <!-- Banner Part Start -->
+  <section id="banner">
+    <div class="container banner-contents">
+      <div class="row">
+        <div class="col-lg-10 mx-auto">
+          <div class="banner-content">
+            <h2 class="text-center">Find your perfect life partner</h2>
+          </div>
+          <div class="banner-content-search">
+            <form>
+             <div class="row">
+               <div class="col-lg-2">
+                <label for="inputState">Looking For</label>
+                <select id="inputState" class="form-control">
+                  <option selected>Male</option>
+                  <option>Female</option>
+                </select>
+               </div>
+               <div class="col-lg-2">
+                <label for="inputState2">Age</label>
+                <select id="inputState2" class="form-control">
+                  <option selected>18</option>
+                  <option>19</option>
+                </select>
+               </div>
+               <div class="col-lg-2">
+                <label for="inputState3">To</label>
+                <select id="inputState3" class="form-control">
+                  <option selected>28</option>
+                  <option>29</option>
+                </select>
+               </div>
+               <div class="col-lg-2">
+                <label for="inputState4">Religion</label>
+                <select id="inputState4" class="form-control">
+                  <option selected>Islam</option>
+                  <option>Hindu</option>
+                </select>
+               </div>
+               <div class="col-lg-2">
+                <label for="inputState5">Country</label>
+                <select id="inputState5" class="form-control">
+                  <option selected>Pakistan</option>
+                  <option>Bangladesh</option>
+                  <option>India</option>
+                </select>
+               </div>
+               <div class="col-lg-2">
+                <div class="search-btn">
+                  <button type="submit" class="btn btn-primary">Let's Begin</button>
+                </div>
+               </div>
+             </div>
+             
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Banner Part End -->
+
+  <!-- Work Part Start -->
+  <section id="work">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="title text-center">
+            <h2>How Zibonshathi Works</h2>
+            <p>Get Started in 3 Easy Steps</p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="work-content text-center">
+            <i class="fas fa-user"></i>
+            <h3>Create Your Profile</h3>
+            <p>Create your detail profile, add photos and describe your partner preference</p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="work-content text-center">
+            <i class="fas fa-search-plus"></i>
+            <h3>Search Your Partner</h3>
+            <p>Search your preferred partner by location, education, interest and so on</p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="work-content text-center">
+            <i class="far fa-comments"></i>
+            <h3>Start Communication</h3>
+            <p>Start communication with suitable profiles by sending message & emails</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Work Part End -->
+
+  <!-- Service Part Start -->
+  <section id="service">
+    <div class="container service-contents">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="title text-center">
+            <h2 class="title-head">Zibonshathi Services</h2>
+            <p class="title-head">Our Best Services</p>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="service-content text-center">
+            <i class="fas fa-headset help"></i>
+            <h3>7 days Customer service</h3>
+            <p>We provide customer support from 10 a.m. to 6 p.m. Clients can contact with us via email, phone and Facebook messenger. We try to give simple and expeditious solutions to your problems.</p>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="service-content text-center">
+            <i class="fas fa-people-arrows"></i>
+            <h3>Special consultancy</h3>
+            <p>We advice on how to make your profile stand out. If you are a premium customer, we will aid you in search of suitable matches based on your preferences. We will aid you by providing some links of potential bride/groom based on your preference.</p>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="service-content text-center">
+            <i class="fab fa-facebook-f"></i>
+            <h3>Facebook page for live interaction</h3>
+            <p>We have a facebook page where our clients may initiate live interaction with us. We try to solve any type of problems and answer any kind of query of our clients. Besides we sometime post our registered clients words about themselves in our page.</p>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="service-content text-center">
+            <i class="fas fa-shield-alt"></i>
+            <h3>Security and privacy ensured</h3>
+            <p>Your photo, real name and complete profile will not be seen by any other user without your permission. For contact information user have to go through two step security process. We also verify mobile number and take necessary action against doubtful profile.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Service Part End -->
+
+  <!-- Common part Start -->
+  <section id="common">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-10 mx-auto">
+          <div class="row">
+            <div class="col-lg-9">
+              <h3 class="text-center">Register Free to find your Perfect Match!</h3>
+            </div>
+            <div class="col-lg-3">
+              <div class="cmn-btn">
+                <a class="btn btn-primary" href="#" role="button">Register Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Common part End -->
+
+  <!-- Featured Profile Part Start -->
+  <section id="featured">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="title text-center">
+            <h2>Featured Profiles</h2>
+            <p>All Profiles Are Real and Verified, Feel Free to Contact Them</p>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="card">
+            <img class="card-img-top" src="./images/featured-01.jpg" alt="Card image cap" style="height: 200px; border-radius: 8px;">
+            <div class="card-body text-center">
+              <span>Id: Mark Gamberther</span>
+              <span>Age: 28</span>
+              <span>Height: 5'6</span>
+              <span>Religion: Muslim</span>
+              <a href="#" class="btn btn-primary">View Profile</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="card">
+            <img class="card-img-top" src="./images/featured-02.jpg" alt="Card image cap" style="height: 200px; border-radius: 8px;">
+            <div class="card-body text-center">
+              <span>Id: Samantha Markesh</span>
+              <span>Age: 26</span>
+              <span>Height: 5'2</span>
+              <span>Religion: Muslim</span>
+              <a href="#" class="btn btn-primary">View Profile</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="card">
+            <img class="card-img-top" src="./images/featured-03.jpg" alt="Card image cap" style="height: 200px; border-radius: 8px;">
+            <div class="card-body text-center">
+              <span>Id: Pablo Ibañez</span>
+              <span>Age: 27</span>
+              <span>Height: 5'5</span>
+              <span>Religion: Muslim</span>
+              <a href="#" class="btn btn-primary">View Profile</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="card">
+            <img class="card-img-top" src="./images/featured-04.jpg" alt="Card image cap" style="height: 200px; border-radius: 8px;">
+            <div class="card-body text-center">
+              <span>Id: Christine Doe</span>
+              <span>Age: 25</span>
+              <span>Height: 5'4</span>
+              <span>Religion: Muslim</span>
+              <a href="#" class="btn btn-primary">View Profile</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-12">
+          <div class="view-all text-center">
+            <a href="#" class="btn btn-primary">View All</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Featured Profile Part End -->
+
+
+  <script src="js/jquery-1.12.4.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/custom.js"></script>
+</body>
+</html>
